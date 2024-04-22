@@ -4,3 +4,16 @@ The Student Registration System (SRS) is a GUI application created with Python a
 
 
 <img width="1440" alt="Screenshot 2024-04-22 at 9 28 24 in the morning" src="https://github.com/MorkSunhout/Student-Registration-System/assets/156296906/7dfe5f4a-8db4-44ba-88e9-1c014184564c">
+
+## Features
+
+- Add new students to the system
+- Edit existing student information
+- Delete students from the system
+- View a list of all students in the system
+- Search for a specific student by name or ID
+- Export student data to a CSV file
+
+
+
+
