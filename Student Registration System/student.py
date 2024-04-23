@@ -165,16 +165,16 @@ class Student:
         button_frame=Frame(left_frame,bd=2,relief=RIDGE,bg="white")
         button_frame.place(x=0,y=435,width=650,height=45)
 
-        button_add=Button(button_frame,text="Save",command=self.add_data,font=("arial",14,"bold"),width=13,bg="blue",fg="white")
+        button_add=Button(button_frame,text="Save",command=self.add_data,font=("arial",14,"bold"),width=13,bg="blue",fg="black")
         button_add.grid(row=0,column=0,padx=1)
 
-        button_update=Button(button_frame,text="Update",command=self.update_data,font=("arial",14,"bold"),width=13,bg="blue",fg="white")
+        button_update=Button(button_frame,text="Update",command=self.update_data,font=("arial",14,"bold"),width=13,bg="blue",fg="black")
         button_update.grid(row=0,column=1,padx=1)
         
-        button_del=Button(button_frame,text="Delete",command=self.delete_data,font=("arial",14,"bold"),width=13,bg="blue",fg="white")
+        button_del=Button(button_frame,text="Delete",command=self.delete_data,font=("arial",14,"bold"),width=13,bg="blue",fg="black")
         button_del.grid(row=0,column=2,padx=1)
 
-        button_reset=Button(button_frame,text="Reset",command=self.reset_data,font=("arial",14,"bold"),width=12,bg="blue",fg="white")
+        button_reset=Button(button_frame,text="Reset",command=self.reset_data,font=("arial",14,"bold"),width=12,bg="blue",fg="black")
         button_reset.grid(row=0,column=3,padx=1)
        
 
@@ -210,10 +210,10 @@ class Student:
         search_entry=ttk.Entry(search_frame,textvariable=self.var_search,font=("Comic Sans MS",12,"bold"),width=15)
         search_entry.grid(row=0,column=2,sticky=W,padx=5)
        
-        button_search=Button(search_frame,text="Search",command=self.search_data,font=("arial",14,"bold"),width=11,bg="blue",fg="white")
+        button_search=Button(search_frame,text="Search",command=self.search_data,font=("arial",14,"bold"),width=11,bg="blue",fg="black")
         button_search.grid(row=0,column=3,padx=5)
 
-        button_ShowAll=Button(search_frame,command=self.fetch_data,text="Show All",font=("arial",14,"bold"),width=10,bg="blue",fg="white")
+        button_ShowAll=Button(search_frame,command=self.fetch_data,text="Show All",font=("arial",14,"bold"),width=10,bg="blue",fg="black")
         button_ShowAll.grid(row=0,column=4,padx=5)
 
         #=======Student Table And Scroll Bar========
