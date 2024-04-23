@@ -3,7 +3,7 @@
 The Student Registration System (SRS) is a GUI application created with Python and tkinter. It is designed to manage student data for a school or university. This system utilizes a MySQL database to store and retrieve student information, such as names, addresses, contact information, and academic records.
 
 
-![Uploading Screenshot 2024-04-23 at 9.32.21 in the morning.png…]()
+<img width="1440" alt="Screenshot 2024-04-23 at 9 32 21 in the morning" src="https://github.com/MorkSunhout/Student-Registration-System/assets/156296906/aae76f25-b5b2-4d66-82dc-9a4c22c89f3b">
 
 
 ## Features
