@@ -26,7 +26,7 @@ class Student:
 
        #1st image 
         img=Image.open(r'STUDENT REGISTRATION SYSTEM/AUPP-Main-Logo.png')
-        img=img.resize((800,140),Image.BILINEAR)
+        img=img.resize((600,140),Image.BILINEAR)
         self.photoimg=ImageTk.PhotoImage(img)
 
         self.button1=Button(self.root,image=self.photoimg,cursor="hand2")
@@ -99,7 +99,7 @@ class Student:
 
         #student class information
         student_class=LabelFrame(left_frame,bd=4,relief=RIDGE,padx=2,text="Student Class Information",font=("Comic Sans MS",12,"bold"),fg="red",bg="white")
-        student_class.place(x=0,y=195,width=650,height=235)
+        student_class.place(x=0,y=220,width=650,height=240)
 
         #student name
         student_name=Label(student_class,text="Student Name: ",font=("Comic Sans MS",12,"bold"),bg="white")
